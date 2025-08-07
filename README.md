@@ -48,12 +48,6 @@ A hobby project and proof-of-concept for future embedded audio systems. The arch
 
 ---
 
-## 📸 Screenshots *(Optional)*
-
-*(You can add some waveform/spectrum display images here later)*
-
----
-
 ## 🚧 Future Improvements
 
 - Add audio classification support (e.g., keyword spotting)
@@ -71,4 +65,4 @@ MIT License (or specify your preferred license)
 
 ## 🙌 Credits
 
-- Based on documentation and examples from Espressif and Adafruit
+- ESP-NOW implementation based on Random Nerd Tutorials code for ESP-NOW: https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/
