@@ -27,13 +27,18 @@ A hobby project and proof-of-concept for future embedded audio systems. The arch
 ## 🛠️ How to Run
 
 1. **Clone this repository** to your local machine.
-2. **Upload `mic_transmitter.ino` using Arduino IDE** for best results (avoids certain I2S/ESP-NOW bugs in PlatformIO).
+2. **Run `mic_transmitter.ino` using Arduino IDE** for best results (avoids certain I2S/ESP-NOW bugs in PlatformIO).
 3. Upload `oled_receiver` code using either **PlatformIO** or **Arduino IDE**.
-4. Connect hardware:
+   - Make sure to properly select your setup based on your display in the TFT eSPI library.
+     1. Go to Display_Reciever\.pio\libdeps\esp32dev\TFT_eSPI\User_Setup_Select.h
+     2. Comment Out #include <User_Setup.h>
+     3. Uncomment the include statement that corresponds to your display.
+     4. Go to the definition of your display and configure your pins
+5. Connect hardware:
    - **Microphone (INMP441)** to ESP32 using I2S pins.
    - **OLED (SSD1351)** to ESP32 using SPI pins.
    - Make sure to configure the I2S and SPI pin assignments in the respective source files.
-5. Power both ESP32s and observe real-time waveform/spectrum output.
+6. Power both ESP32s and observe real-time waveform/spectrum output.
 
 ---
 
