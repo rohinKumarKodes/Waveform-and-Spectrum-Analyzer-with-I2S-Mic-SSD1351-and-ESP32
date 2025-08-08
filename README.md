@@ -4,7 +4,7 @@ A wireless audio visualization system using two ESP32 boards. An **ESP32 + INMP4
 
 ---
 
-## 🔍 Description
+## Description
 
 This project is a remote audio sensing and visualization system. It acts as a wireless "microphone + display" pair:
 
@@ -14,7 +14,7 @@ This project is a remote audio sensing and visualization system. It acts as a wi
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 A hobby project and proof-of-concept for future embedded audio systems. The architecture can be adapted for:
 
@@ -24,7 +24,7 @@ A hobby project and proof-of-concept for future embedded audio systems. The arch
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. **Clone this repository** to your local machine.
 2. **Run `mic_transmitter.ino` using Arduino IDE** for best results (avoids certain I2S/ESP-NOW bugs in PlatformIO).
@@ -42,7 +42,7 @@ A hobby project and proof-of-concept for future embedded audio systems. The arch
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **ESP32**
 - **INMP441 MEMS Microphone (I2S)**
@@ -53,7 +53,7 @@ A hobby project and proof-of-concept for future embedded audio systems. The arch
 
 ---
 
-## 🚧 Future Improvements
+## Future Improvements
 
 - Add audio classification support (e.g., keyword spotting)
 - Add support for dynamic range compression or smoothing
@@ -62,7 +62,7 @@ A hobby project and proof-of-concept for future embedded audio systems. The arch
 
 ---
 
-## 📄 License
+## License
 
 MIT License (or specify your preferred license)
 
