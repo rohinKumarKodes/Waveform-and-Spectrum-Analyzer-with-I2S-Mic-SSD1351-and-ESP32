@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../learningDaCraftFR/generic_gpio"
+		},
+		{
+			"name": "First Project",
+			"path": "../First Project"
+		},
+		{
+			"name": "inmp441_test",
+			"path": "../inmp441_test"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"task.h": "c"
+		}
+	}
+}
