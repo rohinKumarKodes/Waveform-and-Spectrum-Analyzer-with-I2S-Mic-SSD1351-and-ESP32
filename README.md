@@ -68,6 +68,6 @@ MIT License (or specify your preferred license)
 
 ---
 
-## 🙌 Credits
+## Credits
 
 - ESP-NOW implementation based on Random Nerd Tutorials code for ESP-NOW: https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/
