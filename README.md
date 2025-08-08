@@ -27,8 +27,8 @@ A hobby project and proof-of-concept for future embedded audio systems. The arch
 ## How to Run
 
 1. **Clone this repository** to your local machine.
-2. **Run `mic_transmitter.ino` using Arduino IDE** for best results (avoids certain I2S/ESP-NOW bugs in PlatformIO).
-3. Upload `oled_receiver` code using either **PlatformIO** or **Arduino IDE**.
+2. **Run `I2S_Mic_Transmitter` using Arduino IDE** for best results (avoids certain I2S/ESP-NOW bugs in PlatformIO).
+3. Upload `Display_Reciever` code using either **PlatformIO** or **Arduino IDE**.
    - Make sure to properly select your setup based on your display in the TFT eSPI library.
      1. Go to Display_Reciever\.pio\libdeps\esp32dev\TFT_eSPI\User_Setup_Select.h
      2. Comment Out #include <User_Setup.h>
