@@ -16,13 +16,11 @@ This project is a remote audio sensing and visualization system. It acts as a wi
 
 ## Purpose
 
-A hobby project and proof-of-concept for future embedded audio systems. The architecture can be adapted for:
+A hobby project for aesthetics and proof-of-concept for future embedded audio systems. The architecture can be adapted for:
 
 - Wireless **audio classification** systems
 - **Signal monitoring** tools in remote locations
-- Audio visualizers paired with music players or radios
-
-This project also happens to be aesthetic and addicting to look at in my opinion
+- Audio visualizers paired with music players or radios'
 ---
 
 ## How to Run
@@ -57,9 +55,8 @@ This project also happens to be aesthetic and addicting to look at in my opinion
 ## Future Improvements
 
 - Add audio classification support (e.g., keyword spotting)
-- Add support for dynamic range compression or smoothing
-- Implement stereo input/output
 - Support additional display types or higher resolutions
+- Migrate from current ESP32 Devkit V1 setup to custom PCBs using ESP32-C6 and ESP32-S3
 
 ---
 
