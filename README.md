@@ -21,7 +21,7 @@ A hobby project and proof-of-concept for future embedded audio systems. The arch
 - Wireless **audio classification** systems
 - **Signal monitoring** tools in remote locations
 - Audio visualizers paired with music players or radios
-
+This project also happens to be aesthetic and addicting to look at in my opinion
 ---
 
 ## How to Run
