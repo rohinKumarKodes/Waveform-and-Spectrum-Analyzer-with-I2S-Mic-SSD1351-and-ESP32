@@ -62,7 +62,7 @@ A hobby project for aesthetics and proof-of-concept for future embedded audio sy
 
 ## License
 
-MIT License (or specify your preferred license)
+MIT License
 
 ---
 
